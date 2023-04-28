@@ -6,7 +6,7 @@ From the main folder run `npm start` to run the angular app.
 
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5. and Node 18.16.1
 
 ## Development server
 
