@@ -1,0 +1,19 @@
+<mat-form-field class="filter-container">
+  <mat-label>Select Category:</mat-label>
+  <mat-select [formControl]="eventTypesControl" multiple (selectionChange)="onSelectionChange($event)">
+
+    <mat-select-trigger>
+      <mat-chip-grid>
+        <mat-chip-row *ngFor="let eventType of eventTypesControl.value"
+          [removable]="true" (removed)="onEventTypeRemoved(eventType)" selected>
+          {{ eventType }}
+          <mat-icon matChipRemove (click)="removeClick()">cancel</mat-icon>
+        </mat-chip-row>
+      </mat-chip-grid>
+    </mat-select-trigger>
+
+    <mat-option *ngFor="let event of eventTypes" [value]="event.label">
+      {{ event.label }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

@@ -1,0 +1,44 @@
+::ng-deep .mat-mdc-table, .mat-mdc-paginator {
+  background-color: #222B36 ;
+  color: white;
+}
+
+::ng-deep .mdc-data-table__header-cell, .mdc-data-table__cell {
+  color:white;
+}
+
+::ng-deep .mat-mdc-paginator .mat-mdc-select-value {
+  color: white;
+}
+
+::ng-deep .mat-mdc-paginator-icon {
+  fill: white;
+}
+
+.mat-column-eventType,
+.mat-column-severity,
+.mat-column-user,
+.mat-column-date
+ {
+  flex: 0 0 25%;
+}
+
+::ng-deep mat-row.mat-mdc-row,
+mat-header-row.mat-mdc-header-row,
+.mat-mdc-table mat-row.mat-mdc-row {
+  border-bottom: 2px solid #3D4752;
+}
+
+::ng-deep .mdc-data-table__header-cell, .mdc-data-table__cell {
+  padding: 15px 55px 15px 75px !important;
+}
+
+::ng-deep .mdc-data-table__cell, .mdc-data-table__header-cell {
+  border: none !important;
+}
+
+.severity-cell {
+  display: inline;
+  padding: 8px 17px;
+  border-radius: 8px;
+}

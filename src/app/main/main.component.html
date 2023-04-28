@@ -1,0 +1,6 @@
+<div class="container">
+  <h3>Events Table</h3>
+  <app-event-filter (selectionChanged)="onSelectionChanged($event)" ></app-event-filter>
+  <app-event-table [dataSource]="dataSource"></app-event-table>
+</div>
+
