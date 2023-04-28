@@ -1,5 +1,11 @@
 # TalonApp
 
+To start the project, from the "server" folder, run `npm start` to start the nodejs server.
+From the main folder run `npm start` to run the angular app.
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
 ## Development server
